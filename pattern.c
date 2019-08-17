@@ -16,8 +16,8 @@ int main()
 		}printf("\n");
 }}
 \\It will print like this 
-\* *****
+/* *****
     ****
      ***
       **
-       *       *\
+       *       */
