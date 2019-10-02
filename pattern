@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+  int i,j=65,k,n;//j=65 Ascii of A
+  printf("Enter the number of rows");
+  scanf("%d",&n);//To scan the number of rows
+  for(i=1;i<=n;i++)//Looping
+  {
+  	for(k=1;k<=i;k++)//To print the characters
+  	{
+  		printf("%c",j);
+  	}
+  	j++;//pre-increament to increase ascii by 1
+     printf("\n");//To move into next line
+     }
+}
+/*Output:- A
+           BB
+           CCC
+           DDDD
+           EEEEE*/
