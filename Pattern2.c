@@ -31,3 +31,4 @@ for(i=1;i<=n;i++)//Looping till i less than n
               44
               3
 	          if n=3*/
+}
